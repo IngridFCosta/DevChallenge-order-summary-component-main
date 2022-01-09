@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
+    background-color: hsl(225, 100%, 94%);
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 20px;
+}
+.card{
+    background-color:white;
+    border-radius: 20px;
+    width: 30%;
+    height:70%;
+    margin: 0 auto;
+}
+.cardImg img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.cardTexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.cardTexto p {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+.change p{
+    margin-top:30px;
+}
+.change a{
+    font-weight: bold;
+}
+
+.cardPlanoAnual{ 
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+.textoPlano p{
+    color: hsl(224, 23%, 55%);
+}
+.imgIcone{
+    margin-top:20px;
+}
+button{
+    width: 90%;
+    margin: 25px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color:hsl(245, 75%, 52%);
+    color: white;
+    font-weight: bold;
+    box-shadow:0 20px 10px hsl(248, 21%, 93%) ;
+    cursor: pointer;
+}
+.parOrder{
+  text-align: center;
+  padding: 20px;
+  font-weight: bold; 
+}
+.parOrder a{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
